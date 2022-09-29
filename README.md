@@ -1,5 +1,5 @@
 # Project: TechTrends 
---
+
 TechTrends is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them.
 
 I recently joined a small team as a Platform Engineer. The team is composed of 2 developers, 1 platform engineer (me), 1 project manager, and 1 manager. The team was assigned with the TechTrends project, aiming to build a fully functional online news sharing platform. The developers in the team are currently working on the first prototype of the TechTrends website. As a platform engineer, my resposibility was to package and deploy TechTrends to Kubernetes using a CI/CD pipeline.
@@ -11,7 +11,7 @@ Below you can examine the main components of the firsts prototype of the applica
 ![TechTrends web application components](TechTrendsComponents.png)
 
 ## Project Steps Overview
----
+
 1) Apply the best development practices and develop the status and health check endpoints for the TechTrends application.
 
 2) Package the TechTrends application by creating a Dockerfile and Docker image.
@@ -34,7 +34,7 @@ Below you can examine the main components of the firsts prototype of the applica
 
 
 ## Description of the Project Files
----
+
 1) **README.md** contains the main steps of how to execute the TechTrends application
 2) **__init__.py** is a reserved method used to indicate that a directory is a Python package
 3) **app.py** contains the main logging of the TechTrends application
@@ -55,7 +55,7 @@ Within the **project folder** you will notice some extra folders and files. Thes
 
 
 ## Instructions to run the project
----
+
 1) Initialize the database by using the python **init_db.py** command. This creates or overwrites (if the file already exists) the **database.db** file that is used to store and access the available posts.
 2) Run the TechTrends application by using the python **app.py** command. The application is running on port **3111** and you can access it by querying the **http://127.0.0.1:3111/** endpoint.
 
