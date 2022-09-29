@@ -14,7 +14,7 @@ Below you can examine the main components of the firsts prototype of the applica
 1) Apply the best development practices and develop the status and health check endpoints for the TechTrends application.
 
 2) Package the TechTrends application by creating a Dockerfile and Docker image.
-![Dockerfile and Docker image](./screenshots/ci-dockerhub.png)
+![Dockerfile and Docker image](screenshots\ci-dockerhub.png)
 
 3) Implement the Continuous Integration practices, by using GitHub Actions to automate the build and push of the Docker image to DockerHub.
 ![GitHub Actions](screenshots/ci-github-actions.png)
@@ -38,7 +38,7 @@ Below you can examine the main components of the firsts prototype of the applica
 7) **static/** folder contains the CSS files
 8) **templates/** folder outlines the HTML structure of the TechTrends application
 
-Within the **project folder** you will notice some extra folders and files. These will be used to record your commands and output screenshots.
+Within the **project folder** you will notice some extra folders and files. These are used to record the commands and output screenshots.
 
 - argocd - the folder that will contain the ArgoCD manifests
 - helm - the folder that will contain the Helm chart files
