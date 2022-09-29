@@ -14,7 +14,7 @@ Below you can examine the main components of the firsts prototype of the applica
 1) Apply the best development practices and develop the status and health check endpoints for the TechTrends application.
 
 2) Package the TechTrends application by creating a Dockerfile and Docker image.
-![Dockerfile and Docker image](screenshots\ci-dockerhub.png)
+![Dockerfile and Docker image](screenshots/ci-dockerhub.PNG)
 
 3) Implement the Continuous Integration practices, by using GitHub Actions to automate the build and push of the Docker image to DockerHub.
 ![GitHub Actions](screenshots/ci-github-actions.png)
