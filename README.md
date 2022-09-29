@@ -1,0 +1,2 @@
+# techtrends
+TechTrends is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem.  It package and deploy TechTrends app to K3s Kubernetes cluster using a CI/CD pipeline. It uses GitHub Actions to automate the build and push of the Docker image to Docker Hub and implement the Continuous Delivery practices, by deploying the TechTrends application to staging and production environments using ArgoCD and the Helm chart.
